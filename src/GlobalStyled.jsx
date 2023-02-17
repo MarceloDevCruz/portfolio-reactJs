@@ -28,7 +28,20 @@ export const GlobalStyled = createGlobalStyle`
   a,
   a:link,
   a:visited {
+    text-decoration: none;
     color:#f0eeee;
+  }
+
+  button {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    margin: 0;
+    display: inline;
   }
 `;
 

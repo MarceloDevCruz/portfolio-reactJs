@@ -30,16 +30,31 @@ export const Container = styled.section`
     max-width: 30rem;
     justify-self: center;
     align-self: center;
+    animation: moveRight 0.5s ease-out;
+
+    @keyframes moveRight {
+      0% {
+        opacity: 0;
+        transform: translateX(-12rem);
+      }
+
+      80% {
+        transform: translateX(3rem);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translate(0);
+      }
+    }
 
     @media only screen and (max-width: 900px) {
       max-width: 15rem;
     }
   }
 
-  h1 {
-    display: block;
-    margin: 0 auto;
-    font-size: 4rem;
+  h2 {
+    color: #8fc0eb;
   }
 `;
 
@@ -49,6 +64,7 @@ export const AboutMy = styled.div`
   justify-self: center;
   align-self: center;
   padding: 6rem;
+  animation: moveRight 0.5s ease-out;
 
   @media only screen and (max-width: 900px) {
     padding: 2rem;
@@ -71,6 +87,23 @@ export const History = styled.div`
   padding: 2rem;
   justify-self: center;
   align-self: center;
+  animation: moveLeft 0.5s ease-out;
+
+  @keyframes moveLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(12rem);
+    }
+
+    80% {
+      transform: translateX(-3rem);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
 
   @media only screen and (max-width: 450px) {
     font-size: 1rem;
