@@ -1,5 +1,9 @@
 import React from 'react';
-import { GlobalStyled, Background, Container } from './GlobalStyled';
+import {
+  GlobalStyled,
+  Background as BackgroundTheme,
+  Container,
+} from './GlobalStyled';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Menu from './components/menu/Menu';
@@ -8,13 +12,15 @@ import About from './pages/about/About';
 import Contacts from './pages/contacts/Contacts';
 import Projects from './pages/projects/Projects';
 import Skills from './pages/skills/Skills';
+import Background from './background/Background';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <GlobalStyled />
-        <Background>
+        <BackgroundTheme>
+          <Background />
           <Container>
             <Menu />
             <Routes>
@@ -25,7 +31,7 @@ function App() {
             </Routes>
             <Footer />
           </Container>
-        </Background>
+        </BackgroundTheme>
       </BrowserRouter>
     </>
   );

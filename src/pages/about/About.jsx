@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, AboutMy, History } from './styled';
 import vector from '../../assets/vector-history-img.png';
+import { Link } from 'react-router-dom';
+
+import Button from '../../components/buttons/Button';
 
 const About = () => {
+  const handlePage = () => {};
+
   return (
     <Container>
       <AboutMy>
@@ -26,6 +31,9 @@ const About = () => {
           infraestrutura ou devOps.
         </p>
       </History>
+      <Link to="/skills">
+        <Button side={'right'} />
+      </Link>
     </Container>
   );
 };

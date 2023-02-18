@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+  grid-row: 1/2;
+
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 2rem;
+
+  div {
+    padding-right: 4rem;
+  }
 
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
@@ -38,22 +44,6 @@ export const Container = styled.section`
   p:first-of-type {
     animation: moveRight 0.5s ease-out;
   }
-
-  @keyframes moveRight {
-    0% {
-      opacity: 0;
-      transform: translateX(-12rem);
-    }
-
-    80% {
-      transform: translateX(3rem);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
-  }
 `;
 
 export const List = styled.div`
@@ -84,22 +74,6 @@ export const List = styled.div`
       color: black;
     }
   }
-
-  @keyframes moveRight {
-    0% {
-      opacity: 0;
-      transform: translateX(-12rem);
-    }
-
-    80% {
-      transform: translateX(3rem);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
-  }
 `;
 
 export const Curriculum = styled.div`
@@ -111,21 +85,8 @@ export const Curriculum = styled.div`
 
   button {
     margin-top: 2rem;
-  }
-
-  @keyframes moveLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(12rem);
-    }
-
-    80% {
-      transform: translateX(-3rem);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0);
+    :hover {
+      transform: scale(1.1);
     }
   }
 `;

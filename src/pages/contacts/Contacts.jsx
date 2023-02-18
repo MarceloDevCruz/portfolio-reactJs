@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { Container, List, Curriculum } from './styled';
 
+import { Link } from 'react-router-dom';
+import Button from '../../components/buttons/Button';
+
 const Contacts = () => {
   return (
     <Container>
       <div>
-        <p>Entre em contato comigo atráves de meus contatos</p>
+        <p>Entre em contato comigo atráves das minhas redes sociais</p>
         <List>
           <li>
             <a
@@ -40,6 +43,9 @@ const Contacts = () => {
           <button>Download</button>
         </a>{' '}
       </Curriculum>
+      <Link to="/projects">
+        <Button side={'left'} />
+      </Link>
     </Container>
   );
 };

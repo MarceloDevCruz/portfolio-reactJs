@@ -9,6 +9,87 @@ export const GlobalStyled = createGlobalStyle`
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 200;
     letter-spacing: 1.8px;
+
+  ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  }
+
+  ::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  background: #8fc0eb;
+  border: 0px none #f0eeee;
+  border-radius: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+  background: #8fc0eb;
+  border: 0px none #f0eeee;
+  border-radius: 50px;
+  }
+
+  ::-webkit-scrollbar-corner {
+  background: transparent;
+  }
+
+  @keyframes vectorAnimation {
+      0% {
+        transform: scale(1);
+        overflow: hidden;
+      }
+
+      25% {
+        transform: scale(1.1);
+      }
+
+      50% {
+        transform: scale(1.2);
+      }
+
+      75% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes moveRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-12rem);
+    }
+
+    80% {
+      transform: translateX(3rem);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes moveLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(12rem);
+    }
+
+    80% {
+      transform: translateX(-3rem);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
   }
 
   html {
@@ -48,6 +129,7 @@ export const GlobalStyled = createGlobalStyle`
 export const Background = styled.div`
   background-image: url('./src/assets/background.svg');
   background-repeat: repeat;
+  position: relative;
 `;
 
 export const Container = styled.div`

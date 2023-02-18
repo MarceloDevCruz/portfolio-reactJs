@@ -30,22 +30,13 @@ export const Container = styled.section`
     max-width: 30rem;
     justify-self: center;
     align-self: center;
-    animation: moveRight 0.5s ease-out;
 
-    @keyframes moveRight {
-      0% {
-        opacity: 0;
-        transform: translateX(-12rem);
-      }
-
-      80% {
-        transform: translateX(3rem);
-      }
-
-      100% {
-        opacity: 1;
-        transform: translate(0);
-      }
+    :hover {
+      animation-name: vectorAnimation;
+      animation-duration: 2s;
+      animation-delay: 0.3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
     }
 
     @media only screen and (max-width: 900px) {
@@ -88,22 +79,6 @@ export const History = styled.div`
   justify-self: center;
   align-self: center;
   animation: moveLeft 0.5s ease-out;
-
-  @keyframes moveLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(12rem);
-    }
-
-    80% {
-      transform: translateX(-3rem);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
-  }
 
   @media only screen and (max-width: 450px) {
     font-size: 1rem;
