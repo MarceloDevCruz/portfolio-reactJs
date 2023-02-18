@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, List, Curriculum } from './styled';
 
 const Contacts = () => {
@@ -33,7 +33,12 @@ const Contacts = () => {
 
       <Curriculum>
         <p>Faça download do meu curriculo</p>
-        <button> Download</button>
+        <a
+          href="Currículo Marcelo Ferreira Cruz.pdf"
+          download="Marcelo Ferreira Cruz - Frontend"
+        >
+          <button>Download</button>
+        </a>{' '}
       </Curriculum>
     </Container>
   );
