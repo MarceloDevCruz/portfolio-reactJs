@@ -19,5 +19,11 @@ export const Container = styled.ul`
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+
+    :disabled {
+      border: none;
+      color: grey;
+      cursor: default;
+    }
   }
 `;

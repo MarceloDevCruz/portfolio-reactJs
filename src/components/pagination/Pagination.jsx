@@ -12,15 +12,35 @@ const Pagination = ({ limit, total, offSet, setOffSet }) => {
 
   return (
     <Container>
+      <li>
+        <button
+          onClick={() => setOffSet((actual_page - 2) * limit)}
+          disabled={actual_page === 1}
+        >
+          &#60;
+        </button>
+      </li>
       {Array.from({ length: Math.min(max_items, total_pages) })
         .map((_, index) => index + first)
         .map((page) => (
           <li key={page}>
-            <button onClick={() => setOffSet((page - 1) * limit)}>
-              {page}
-            </button>
+            {actual_page === page ? (
+              <button disabled>{page}</button>
+            ) : (
+              <button onClick={() => setOffSet((page - 1) * limit)}>
+                {page}
+              </button>
+            )}
           </li>
         ))}
+      <li>
+        <button
+          onClick={() => setOffSet(actual_page * limit)}
+          disabled={actual_page === total_pages}
+        >
+          &#62;
+        </button>
+      </li>
     </Container>
   );
 };

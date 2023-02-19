@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { data } from '../../data/data';
 import { Link } from 'react-router-dom';
-import { Container } from './styled';
+import { Container, ProjectContainer } from './styled';
 
 import Button from '../../components/buttons/Button';
 import Project from '../../components/project/Project';
@@ -10,18 +10,20 @@ import Pagination from '../../components/pagination/Pagination';
 
 const Projects = () => {
   const [offSet, setOffSet] = useState(0);
-  const limite = 4;
+  const limit = 2;
   const total = data.length;
 
   return (
     <Container>
-      {data
-        .filter((project, i) => i >= offSet && i < offSet + limite)
-        .map((project) => (
-          <Project project={project} key={project.id} />
-        ))}
+      <ProjectContainer>
+        {data
+          .filter((project, i) => i >= offSet && i < offSet + limit)
+          .map((project) => (
+            <Project project={project} key={project.id} />
+          ))}
+      </ProjectContainer>
       <Pagination
-        limit={limite}
+        limit={limit}
         total={total}
         offSet={offSet}
         setOffSet={setOffSet}
