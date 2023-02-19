@@ -20,7 +20,7 @@ export const projects = [
   {
     id: 1,
     name: 'Consumindo API',
-    type: 'other',
+    type: 'backend',
     mini_descript: '',
     descript:
       'Utilizando os conceitos dos cursos e da faculdade, elaborei uma página html para exibir os dados relacionados a COVID-19 de um determinado estado do Brasil, a página web contem um campo input para o usuário digitar CEP que deseja pesquisar, por meio do JavaScript validando o campo de CEP e incluindo a máscara de CEP corretamente. Através da API de CEP consultando o estado pesquisado e passando-o como parâmetro da requisição para a API do COVID-19 e exibindo os dados de retorno na mesma página onde foi digitado o CEP.',

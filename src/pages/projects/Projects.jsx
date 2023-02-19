@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 import { Container } from './styled';
 
 import Button from '../../components/buttons/Button';
+import Project from '../../components/project/Project';
 
 const Projects = () => {
   return (
     <Container>
-      {' '}
-      <div>Projects</div>{' '}
+      {projects.map((project) => (
+        <Project project={project} key={project.id} />
+      ))}
       <Link to="/skills">
         <Button side={'left'} />
       </Link>

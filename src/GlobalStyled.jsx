@@ -11,29 +11,15 @@ export const GlobalStyled = createGlobalStyle`
     letter-spacing: 1.8px;
 
   ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
-  }
-
-  ::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
+  width: .8rem;
+  background-color: black;
+  border: 0.5rem solid grey;
   }
 
   ::-webkit-scrollbar-thumb {
-  background: #8fc0eb;
-  border: 0px none #f0eeee;
-  border-radius: 20px;
-  }
-
-  ::-webkit-scrollbar-track {
-  background: #8fc0eb;
-  border: 0px none #f0eeee;
-  border-radius: 50px;
-  }
-
-  ::-webkit-scrollbar-corner {
-  background: transparent;
+  background-color: white;
+  border-radius: 2rem;
+  border: 2rem solid #8fc0eb;
   }
 
   @keyframes vectorAnimation {

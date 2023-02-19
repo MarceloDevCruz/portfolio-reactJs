@@ -4,7 +4,7 @@ import { Container } from './styled';
 const Pagination = () => {
   const context = useContext(CreateContext);
 
-  const MAXIMO_ITEMS = 11;
+  const MAXIMO_ITEMS = 3;
   const MAXIMO_ESQUERDA = (MAXIMO_ITEMS - 1) / 2;
 
   const paginaAtual = context.offSet ? context.offSet / context.limite + 1 : 1;
