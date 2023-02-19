@@ -15,6 +15,14 @@ export const Container = styled.section`
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
     justify-content: center;
+
+    div {
+      padding-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    font-size: 1.7rem;
   }
 
   @media only screen and (max-width: 600px) {
@@ -66,7 +74,8 @@ export const List = styled.div`
   a {
     padding: 0.5rem 1.2rem;
     cursor: pointer;
-    border: 1px solid #8fc0eb;
+    border: 1px solid rgba(10, 173, 251, 0.4);
+    border-radius: 6px;
 
     :hover {
       border: none;

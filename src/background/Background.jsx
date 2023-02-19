@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsCircle } from 'react-icons/bs';
 
-import { Container, Ring1, Ring2, Ring3, Ring4 } from './styled';
+import { Container, Ring1, Ring2, Ring3 } from './styled';
 
 const Background = () => {
   return (
@@ -15,9 +15,6 @@ const Background = () => {
       <Ring3>
         <BsCircle />
       </Ring3>
-      <Ring4>
-        <BsCircle />
-      </Ring4>
     </Container>
   );
 };
