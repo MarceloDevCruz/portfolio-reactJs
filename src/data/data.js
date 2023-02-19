@@ -1,4 +1,4 @@
-export const projects = [
+export const data = [
   {
     id: 0,
     name: 'Rom Hacking',

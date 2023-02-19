@@ -10,7 +10,7 @@ const Project = ({ project }) => {
         <img src={project.image} alt={project.name} />
         <h2>{project.name}</h2>
         <div>
-          <p>{project.mini_discript}</p>
+          <p>{project.mini_descript}</p>
           <p>{project.descript}</p>
           <p>{project.project}</p>
         </div>
