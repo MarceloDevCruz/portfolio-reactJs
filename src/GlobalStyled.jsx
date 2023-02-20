@@ -113,7 +113,7 @@ export const GlobalStyled = createGlobalStyle`
 `;
 
 export const Background = styled.div`
-  background-image: url('./src/assets/background.svg');
+  background-image: url('./src/assets/img/background.svg');
   background-repeat: repeat;
   position: relative;
 `;

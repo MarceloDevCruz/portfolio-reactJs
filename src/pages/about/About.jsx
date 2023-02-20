@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, AboutMy, History } from './styled';
-import vector from '../../assets/vector-history-img.png';
+import vector from '../../assets/img/vector-history-img.png';
 import { Link } from 'react-router-dom';
 
 import Button from '../../components/buttons/Button';

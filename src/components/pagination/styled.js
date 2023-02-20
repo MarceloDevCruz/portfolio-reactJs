@@ -4,6 +4,7 @@ export const Container = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 6rem;
 
   li {
     display: flex;

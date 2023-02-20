@@ -10,7 +10,7 @@ import Pagination from '../../components/pagination/Pagination';
 
 const Projects = () => {
   const [offSet, setOffSet] = useState(0);
-  const limit = 2;
+  const limit = 3;
   const total = data.length;
 
   return (

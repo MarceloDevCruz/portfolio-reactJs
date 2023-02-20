@@ -7,16 +7,11 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 8rem;
+  padding: 8rem 6rem 0;
 `;
 
 export const ProjectContainer = styled.div`
   display: grid;
 
-  grid-template-columns: repeat(2, 1fr);
-  margin: 3rem 0;
-  min-height: 60rem;
-  justify-content: center;
-  align-items: center;
-  gap: 7rem;
+  grid-template-columns: repeat(3, 1fr);
 `;

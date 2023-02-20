@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <>
       <Container>
-        <img src={project.image} alt={project.name} />
+        {project.image && <img src={project.image} alt={project.name} />}
         <h2>{project.name}</h2>
         <div>
           <p>{project.mini_descript}</p>

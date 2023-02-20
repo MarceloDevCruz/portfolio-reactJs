@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 0,
+    id: 6,
     name: 'Rom Hacking',
     type: 'other',
     mini_descript: '',
@@ -15,10 +15,10 @@ export const data = [
       'https://www.youtube.com/watch?v=RPqi99KjSD8&ab_channel=Christodoulopoulos',
       'https://github.com/MarceloDevCruz/kid-chameleon-the-last-showdown',
     ],
-    image: '',
+    image: 'img_00.jpg',
   },
   {
-    id: 1,
+    id: 9,
     name: 'Consumindo API',
     type: 'backend',
     mini_descript: '',
@@ -31,10 +31,10 @@ export const data = [
       'https://luminous-nasturtium-a35da4.netlify.app/',
       'https://github.com/MarceloDevCruz/dw2A4/tree/master/Atividades/A4',
     ],
-    image: '',
+    image: 'img_01.png',
   },
   {
-    id: 2,
+    id: 5,
     name: 'Mercado - Estrutura de Dados',
     type: 'backend',
     mini_descript: '',
@@ -48,7 +48,7 @@ export const data = [
       'https://github.com/MarceloDevCruz/Estrutura-de-dados-em-C',
       'https://www.youtube.com/watch?v=oLinYmxOZHk&ab_channel=Christodoulopoulos',
     ],
-    image: '',
+    image: 'img_02.jpg',
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const data = [
     ],
     about: 'Veja um pouco mais sobre o projeto:',
     links: ['https://github.com/MarceloDevCruz/comente-sobre'],
-    image: '',
+    image: 'img_03.png',
   },
   {
     id: 4,
@@ -104,7 +104,7 @@ export const data = [
     image: '',
   },
   {
-    id: 5,
+    id: 0,
     name: 'Worksheets - CRUD',
     type: 'frontend',
     mini_descript: '',
@@ -118,10 +118,10 @@ export const data = [
       'https://github.com/MarceloDevCruz/worksheets-react',
       'https://udockers-react-worksheets.netlify.app/',
     ],
-    image: '',
+    image: 'img_05.png',
   },
   {
-    id: 6,
+    id: 2,
     name: 'Pomodoro APP',
     type: 'frontend',
     mini_descript: '',
@@ -135,7 +135,7 @@ export const data = [
       'https://github.com/MarceloDevCruz/pomodoro-app',
       'https://mfc-pomodoro.netlify.app/',
     ],
-    image: '',
+    image: 'img_06.png',
   },
   {
     id: 7,
@@ -152,7 +152,7 @@ export const data = [
       'https://github.com/MarceloDevCruz/react-tmdb',
       'https://react-tmdb-mfc.netlify.app/',
     ],
-    image: '',
+    image: 'img_07.png',
   },
   {
     id: 8,
@@ -177,10 +177,10 @@ export const data = [
       'https://github.com/MarceloDevCruz/password-generator',
       'https://password-generate-mfc.netlify.app/',
     ],
-    image: '',
+    image: 'img_08.png',
   },
   {
-    id: 9,
+    id: 1,
     name: 'Unsplashgram - FrontEnd',
     type: 'frontend',
     mini_descript:
@@ -195,7 +195,7 @@ export const data = [
       'https://github.com/MarceloDevCruz/instagram/tree/main/frontend',
       'https://unsplashgram.netlify.app/login',
     ],
-    image: '',
+    image: 'img_09.jpg',
   },
   {
     id: 10,
@@ -223,6 +223,6 @@ export const data = [
       'https://github.com/MarceloDevCruz/Yugioh-commerce',
       'https://yugioh-shop-mfc.netlify.app/',
     ],
-    image: '',
+    image: 'img_10.png',
   },
 ];
