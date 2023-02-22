@@ -1,14 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container } from './styled';
+import { Container, Hardskills, Softskills } from './styled';
 
 import Button from '../../components/buttons/Button';
 
 const Skills = () => {
   return (
     <Container>
-      {' '}
-      <div>Skills</div>{' '}
+      <Hardskills>
+        <li>Desenvolvimento Web</li>
+        <li>UX UI</li>
+        <li>API Rest</li>
+        <li>ReactJs</li>
+        <li>sass</li>
+        <li>NodeJs</li>
+      </Hardskills>
+      <Softskills>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </Softskills>
       <Link to="/">
         <Button side={'left'} />
       </Link>

@@ -19,11 +19,15 @@ const Project = ({ project }) => {
         </div>
         <Links>
           <p>{project.about}</p>
-          {project.links.map((link, i) => (
-            <a key={i} target="_blank" href={link}>
-              {project.link_name[i]}
-            </a>
-          ))}
+          <ul>
+            {project.links.map((link, i) => (
+              <li key={i}>
+                <a target="_blank" href={link}>
+                  {project.link_name[i]}
+                </a>
+              </li>
+            ))}
+          </ul>
         </Links>
       </Container>
     </>

@@ -13,7 +13,11 @@ export const Container = styled.section`
     padding: 8rem 10rem 0;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
+    padding: 8rem 12rem 0;
+  }
+
+  @media only screen and (max-width: 700px) {
     padding: 8rem 5rem 0;
   }
 

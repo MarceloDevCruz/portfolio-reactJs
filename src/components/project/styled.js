@@ -28,8 +28,12 @@ export const Container = styled.div`
     width: 100%;
     max-height: 25vh;
 
+    @media only screen and (max-height: 1700px) {
+      max-height: 35rem;
+    }
+
     @media only screen and (max-height: 1050px) {
-      max-height: 27rem;
+      max-height: 32rem;
     }
   }
 
@@ -47,7 +51,7 @@ export const Links = styled.div`
   }
 
   a {
-    display: block;
+    display: inline-block;
     color: white;
     font-weight: 200;
     letter-spacing: 2.2px;

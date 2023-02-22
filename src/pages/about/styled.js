@@ -57,6 +57,10 @@ export const AboutMy = styled.div`
   padding: 6rem;
   animation: moveRight 0.5s ease-out;
 
+  strong {
+    font-weight: 700;
+  }
+
   @media only screen and (max-width: 900px) {
     padding: 2rem;
   }
