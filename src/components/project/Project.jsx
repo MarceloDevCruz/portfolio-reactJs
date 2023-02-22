@@ -1,7 +1,7 @@
 import React from 'react';
 import Skill from '../skills_card/Skill';
 
-import { Container, Card } from './styled';
+import { Container, Links } from './styled';
 
 const Project = ({ project }) => {
   return (
@@ -11,14 +11,20 @@ const Project = ({ project }) => {
         <h2>{project.name}</h2>
         <div>
           <p>{project.mini_descript}</p>
-          <p>{project.descript}</p>
-          <p>{project.project}</p>
         </div>
-        <Card>
+        <div>
           {project.skills.map((card, index) => (
-            <Skill key={index} />
+            <Skill skill={card} key={index} />
           ))}
-        </Card>
+        </div>
+        <Links>
+          <p>{project.about}</p>
+          {project.links.map((link, i) => (
+            <a target="_blank" href={link}>
+              {project.link_name[i]}
+            </a>
+          ))}
+        </Links>
       </Container>
     </>
   );

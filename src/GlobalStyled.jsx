@@ -11,15 +11,15 @@ export const GlobalStyled = createGlobalStyle`
     letter-spacing: 1.8px;
 
   ::-webkit-scrollbar {
-  width: .8rem;
+  width: .2rem;
   background-color: black;
-  border: 0.5rem solid grey;
+  border: 0.3rem solid grey;
   }
 
   ::-webkit-scrollbar-thumb {
   background-color: white;
-  border-radius: 2rem;
-  border: 2rem solid #8fc0eb;
+  border-radius: .5rem;
+  border: .3rem solid #8fc0eb;
   }
 
   @keyframes vectorAnimation {

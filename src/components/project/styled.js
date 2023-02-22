@@ -11,22 +11,23 @@ export const Container = styled.div`
     black
   );
   box-shadow: 0 0 5rem black;
-  border-radius: 20px;
-  font-size: 1.2rem;
-  height: 70rem;
+  font-size: 1.4rem;
+  height: 58.5rem;
+  margin-top: 2rem;
+  overflow-y: auto;
 
   @media only screen and (max-width: 1700px) {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   div {
     padding: 0 2rem;
+    margin-bottom: 1rem;
   }
 
   img {
     width: 100%;
-    height: 30vh;
-    border-radius: 20px 20px 0 0;
+    height: 25vh;
   }
 
   h2 {
@@ -35,4 +36,18 @@ export const Container = styled.div`
   }
 `;
 
-export const Card = styled.div``;
+export const Links = styled.div`
+  margin-top: 2rem;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    display: block;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2.2px;
+    text-transform: capitalize;
+  }
+`;
