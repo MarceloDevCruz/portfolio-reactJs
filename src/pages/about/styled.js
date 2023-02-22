@@ -44,8 +44,12 @@ export const Container = styled.section`
     }
   }
 
-  h2 {
+  h1 {
     color: #8fc0eb;
+  }
+
+  span {
+    display: none;
   }
 `;
 

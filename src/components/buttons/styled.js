@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   font-size: 5rem;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: ${(props) => (props.side === 'left' ? '1%' : '')};
   right: ${(props) => (props.side === 'right' ? '1%' : '')};

@@ -76,6 +76,12 @@ export const GlobalStyled = createGlobalStyle`
       transform: translate(0);
     }
   }
+
+  @keyframes rotate {
+    from { -webkit-transform: rotate(0deg) }
+    to { -webkit-transform: rotate(360deg) }
+  }
+
   }
 
   html {
