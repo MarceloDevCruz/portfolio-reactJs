@@ -20,7 +20,6 @@ function App() {
       <BrowserRouter>
         <GlobalStyled />
         <BackgroundTheme>
-          <Background />
           <Container>
             <Menu />
             <Routes>
