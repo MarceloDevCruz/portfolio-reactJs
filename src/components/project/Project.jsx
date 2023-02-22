@@ -20,7 +20,7 @@ const Project = ({ project }) => {
         <Links>
           <p>{project.about}</p>
           {project.links.map((link, i) => (
-            <a target="_blank" href={link}>
+            <a key={i} target="_blank" href={link}>
               {project.link_name[i]}
             </a>
           ))}

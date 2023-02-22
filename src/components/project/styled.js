@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0 2rem;
+  margin: 4rem 2rem 0;
   background-image: linear-gradient(
     10deg,
     black,
@@ -13,7 +13,6 @@ export const Container = styled.div`
   box-shadow: 0 0 5rem black;
   font-size: 1.4rem;
   height: 58.5rem;
-  margin-top: 2rem;
   overflow-y: auto;
 
   @media only screen and (max-width: 1700px) {
@@ -27,7 +26,11 @@ export const Container = styled.div`
 
   img {
     width: 100%;
-    height: 25vh;
+    max-height: 25vh;
+
+    @media only screen and (max-height: 1050px) {
+      max-height: 27rem;
+    }
   }
 
   h2 {

@@ -12,6 +12,14 @@ export const Container = styled.section`
   @media only screen and (max-width: 1700px) {
     padding: 8rem 10rem 0;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 8rem 5rem 0;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 8rem 1rem 0;
+  }
 `;
 
 export const ProjectContainer = styled.div`
