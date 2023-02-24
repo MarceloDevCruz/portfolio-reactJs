@@ -247,4 +247,21 @@ export const data = [
     link_name: ['github', 'netlify'],
     image: 'img_11.png',
   },
+  {
+    id: 12,
+    name: 'Natours Landpage',
+    type: 'frontend',
+    mini_descript:
+      'Landpage criada para natours, projeto completo realizada com o curso de sass e css avançado, utilizando arquiteturas e padrões de estilo para sass e css como o BEM e o 7-1.',
+    descript: '',
+    project: '',
+    skills: ['html', 'css', 'sass', 'bem', '7-1'],
+    about: 'Veja um pouco mais sobre o projeto:',
+    links: [
+      'https://github.com/MarceloDevCruz/Landing-page-sass',
+      'https://natours-landpage-sass.netlify.app/',
+    ],
+    link_name: ['github', 'netlify'],
+    image: 'img_12.png',
+  },
 ];
