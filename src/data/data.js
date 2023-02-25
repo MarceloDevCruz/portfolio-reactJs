@@ -264,4 +264,21 @@ export const data = [
     link_name: ['github', 'netlify'],
     image: 'img_12.png',
   },
+  {
+    id: 12,
+    name: 'Nexter Landpage',
+    type: 'frontend',
+    mini_descript:
+      'Landpage criada para nexter, projeto completo realizada com o curso de sass e css avançado, utilizando arquiteturas e padrões de estilo para sass e css como o BEM e o 7-1.',
+    descript: '',
+    project: '',
+    skills: ['html', 'css', 'sass', 'bem', '7-1'],
+    about: 'Veja um pouco mais sobre o projeto:',
+    links: [
+      'https://github.com/MarceloDevCruz/nexter---css-grid',
+      'https://nexter-mfc.netlify.app/',
+    ],
+    link_name: ['github', 'netlify'],
+    image: 'img_13.png',
+  },
 ];
