@@ -281,4 +281,18 @@ export const data = [
     link_name: ['github', 'netlify'],
     image: 'img_13.png',
   },
+  {
+    id: 13,
+    name: 'Perfil Representacional',
+    type: 'backend',
+    mini_descript:
+      'Programa em Linguagem C que implementa, um teste representacional, os testes representacionais são usados questionamentos sobre os sentidos externos para observar o mundo e os internos para representar a experiência para nós mesmos. As maneiras como assimilamos, armazenamos e codificamos a informação na nossa mente através da visão, da audição, do tato, do paladar ou do olfato são chamadas de sistemas representacionais.',
+    descript: '',
+    project: '',
+    skills: ['c', 'logica de programação'],
+    about: 'Veja um pouco mais sobre o projeto:',
+    links: ['https://github.com/MarceloDevCruz/perfil-representacional'],
+    link_name: ['github'],
+    image: 'img_14.jpg',
+  },
 ];
