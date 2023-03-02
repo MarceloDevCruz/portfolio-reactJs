@@ -31,6 +31,7 @@ export const data = [
     skills: [
       'ReactJs',
       'context',
+      'redux',
       'sass',
       'postcss',
       'figma',
