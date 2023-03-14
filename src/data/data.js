@@ -296,4 +296,28 @@ export const data = [
     link_name: ['github'],
     image: 'img_14.jpg',
   },
+  {
+    id: 14,
+    name: 'Github Search',
+    type: 'frontend',
+    mini_descript:
+      'Projeto e desafio para programador front-end júnior, os requisitos para desenvolver o projeto consiste em criar aplicação client-side que consulta a API do GitHub para mostrar os repositórios de um usuário. Os requisitos incluem a capacidade de pesquisar usuários por nome, exibir detalhes do usuário selecionado, visualizar uma lista de repositórios favoritos, exibir mensagens de erro quando não for possível encontrar um usuário ou repositório e uma página de erro para quando uma página não for encontrada. A aplicação deve funcionar nos principais navegadores.',
+    descript: '',
+    project: '',
+    skills: [
+      'typescript',
+      'styled-component',
+      'reactJs',
+      'context api',
+      'api',
+      'axios',
+    ],
+    about: 'Veja um pouco mais sobre o projeto:',
+    links: [
+      'https://github.com/MarceloDevCruz/github-challenger',
+      'https://github-challenger-mfc.netlify.app/',
+    ],
+    link_name: ['github', 'netlify'],
+    image: 'img_15.png',
+  },
 ];
