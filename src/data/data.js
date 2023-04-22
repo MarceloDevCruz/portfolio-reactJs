@@ -320,4 +320,21 @@ export const data = [
     link_name: ['github', 'netlify'],
     image: 'img_15.png',
   },
+  {
+    id: 15,
+    name: 'Vtex - econverse',
+    type: 'frontend',
+    mini_descript:
+      'Projeto e teste para uma vaga de estágio em desenvolvimento de sistemas que desenvolvi uma página HTML com base em um layout disponibilizado no Figma. Utilizei o pré-processador Sass para organizar o código e o React.js para criar a vitrine de produtos, consumindo as informações de um arquivo JSON. Também implementei uma interação que abria um modal com informações adicionais do produto selecionado. Por fim, destaquei que o projeto ficou muito próximo do layout original e que as interações funcionavam perfeitamente.',
+    descript: '',
+    project: '',
+    skills: ['typescript', 'sass', 'reactJs', 'api', 'axios'],
+    about: 'Veja um pouco mais sobre o projeto:',
+    links: [
+      'https://github.com/MarceloDevCruz/teste-front-end-jr',
+      'https://vtex-econverse.netlify.app/',
+    ],
+    link_name: ['github', 'netlify'],
+    image: 'img_16.png',
+  },
 ];
