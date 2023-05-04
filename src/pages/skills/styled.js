@@ -57,7 +57,8 @@ export const Hardskills = styled.div`
   svg {
     font-size: 6rem;
     color: yellow;
-    filter: drop-shadow(10px 20px 40px yellow);
+    animation: lightAnimation 3s infinite;
+    animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
 
     @media only screen and (max-width: 1500px) {
       font-size: 5rem;

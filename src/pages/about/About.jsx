@@ -24,11 +24,12 @@ const About = () => {
       </AboutMy>
       <img src={vector} alt="Vector" />
       <History>
+        <h2>WallJobs</h2>
         <p>
-          Estou a procura de uma oportunidade para me tornar um desenvolvedor, o
-          meu foco atualmente é no desenvolvimento Web, porém estou aberto para
-          qualquer oportunidade que me derem, tanto no backend, fullstack,
-          infraestrutura ou devOps.
+          Atualmente estou estágiando na WallJobs, trabalhando com as
+          tecnologias Ruby e Ruby on Rails. Estou aprendendo e desenvolvendo
+          minhas habilidades em desenvolvimento web, aplicando conceitos
+          fundamentais da linguagem Ruby e trabalhando em projetos reais.
         </p>
       </History>
       <Link to="/skills">

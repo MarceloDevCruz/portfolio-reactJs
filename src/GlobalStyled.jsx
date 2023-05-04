@@ -45,6 +45,11 @@ export const GlobalStyled = createGlobalStyle`
       }
     }
 
+    @keyframes lightAnimation {
+      from { filter: drop-shadow(10px 20px 40px yellow) }
+    to { filter: drop-shadow(10px 20px 40px black) }
+    }
+
     @keyframes moveRight {
     0% {
       opacity: 0;

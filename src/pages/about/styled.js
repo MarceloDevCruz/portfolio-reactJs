@@ -88,6 +88,10 @@ export const History = styled.div`
   align-self: center;
   animation: moveLeft 0.5s ease-out;
 
+  h2 {
+    color: #8fc0eb;
+  }
+
   @media only screen and (max-width: 450px) {
     font-size: 1rem;
     margin-top: 2rem;

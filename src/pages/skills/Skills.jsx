@@ -14,11 +14,11 @@ const Skills = () => {
         <HiLightBulb />
         <ul>
           <li>Desenvolvimento Web</li>
-          <li>UX UI</li>
-          <li>API Rest</li>
+          <li>UX/UI</li>
           <li>ReactJs</li>
           <li>sass</li>
-          <li>NodeJs</li>
+          <li>Ruby</li>
+          <li>Ruby on rails</li>
         </ul>
       </Hardskills>
       <Softskills>
