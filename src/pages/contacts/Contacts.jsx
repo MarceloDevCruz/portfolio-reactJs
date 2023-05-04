@@ -38,7 +38,7 @@ const Contacts = () => {
         <p>Faça download do meu curriculo</p>
         <a
           href="Currículo Marcelo Ferreira Cruz.pdf"
-          download="Marcelo Ferreira Cruz - Frontend"
+          download="Currículo Marcelo Ferreira Cruz"
         >
           <button>Download</button>
         </a>{' '}
